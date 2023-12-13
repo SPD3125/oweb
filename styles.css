@@ -1,0 +1,233 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 40px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+/* ... (previous code) */
+
+/* Additional Styles for the Advanced Portfolio */
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff5e5e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d44242;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills {
+    margin-top: 40px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.skills li {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.portfolio h2 {
+    margin-bottom: 40px;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 80px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ff5e5e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #d44242;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+
+/* ... (remaining code) */
